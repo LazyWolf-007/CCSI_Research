@@ -66,6 +66,12 @@ python scripts/ccsi_ml_analysis.py
 All figures will be saved in figures/
 Generated ML tables will appear in output/
 
+Note: Some early experiments used Gemini-assisted interpolation to repair
+rows with parsing failures. These scripts are no longer required because
+the modern+historical WORKING dataset was fully validated manually and
+is included as final input for analysis.
+
+
 📥 Use in Research
 
 If this repository helps your work, please cite:
