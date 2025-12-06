@@ -105,17 +105,27 @@ python scripts/ccsi_ml_analysis.py
 
 Results are saved automatically in /output/.
 
-📌 Research Insight Summary
+## 🗂 Archived Scripts (Not Part of Current Pipeline)
 
-Complete summaries are included in the paper, but the key findings are below:
+The following files are located in:
 
-Finding	Evidence
-Cohesion rises when mobility & knowledge open up	Seen in Mauryan, Tamilakam Classical, Early Republic
-Decline always begins with gatekeeping	Late Vedic, Early Medieval, Colonial
-Recovery always begins with education reform	Gupta, Bhakti-urbanization, Post-1950
-Economic growth without pluralism is unstable	Colonial & late-20th friction eras
-Modern India resembles “reform without emotional synchronisation” eras	ML mapping to E18–E20
- ## 🔗 Related Resources
+`CCSI_Research/scripts/archive/`
+
+| Script Name | Purpose | Status |
+|------------|---------|--------|
+| `ccsi_patch_missing_rows.py` | Temporary utility used during early dataset construction to add placeholder rows for missing eras | ❌ Deprecated — DO NOT RUN |
+| `mark_interpolated.py` | Helper tool used to tag auto-generated rows during initial debugging | ❌ Deprecated — DO NOT RUN |
+
+These scripts represent historical development artifacts, preserved only for transparency and reproducibility.
+They are not part of the v1.0 analysis pipeline and should not be executed on current datasets (`CCSI_Dataset_FINAL`, `CCSI_Dataset_WORKING`, or `MODERN` dataset).
+
+Only the scripts in:
+
+`CCSI_Research/scripts/`
+
+are required for replication of the published results.
+
+## 🔗 Related Resources
 
 | Resource | Location |
 |---------|----------|
